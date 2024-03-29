@@ -41,6 +41,6 @@ def plot_leaky_relu(x):
 random_values = [-3.5, -1.2, 0, 2.8, -4.1, 1.5, -0.7, 3.2, -2.4, 4.6]
 x = np.array(random_values)
 plot_sigmoid(x)
-plot_tanh(x)
-plot_relu(x)
-plot_leaky_relu(x)
+#plot_tanh(x)
+#plot_relu(x)
+#plot_leaky_relu(x)
