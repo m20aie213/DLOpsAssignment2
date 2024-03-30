@@ -2,6 +2,8 @@ import numpy as np
 import matplotlib.pyplot as plt
 from activation import sigmoid,tanh,relu,leaky_relu
 
+#####Comments for Bug Fix branch
+
 def plot_sigmoid(x):
     y = sigmoid(x)
     plt.plot(x,y)
@@ -48,3 +50,4 @@ x = np.array(random_values)
 print("ReLU: ", relu(x))
 print("Leaky ReLU: ", leaky_relu(x))
 print("Tanh: ", tanh(x))
+print("Bug Fix Branch")
